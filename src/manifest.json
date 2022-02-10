@@ -1,0 +1,47 @@
+{
+	"name": "插件",
+	"description": "description",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"icons": {
+		"48": "icons/icon_48.png",
+		"128": "icons/icon_128.png"
+	},
+	"browser_action": {
+		"default_title": "title",
+		"default_popup": "page/p.html"
+	},
+	"background": {
+		"page": "page/background.html"
+	},
+	"options_ui": {
+		"page": "page/options.html"
+	},
+	"permissions":[
+		"tabs",
+        "storage", 
+		"webRequest",
+		"https://*.baidu.com/*",
+		"https://*.expample.com/*"
+	],
+	"web_accessible_resources":[
+		"content/*.js",
+		"fonts/*.woff",
+		"fonts/*.tff"
+	],
+	"content_scripts": [
+		{
+		  "matches": [
+			"https://*.baidu.com/*"
+		  ],
+		  "js": [
+			"content/baidu.js"
+		  ],
+		  "run_at": "document_idle",
+		  "all_frames": false
+		}
+		
+	  ],
+	
+	"content_security_policy":"script-src 'self' 'unsafe-eval' https://*.expample.com; object-src 'self'"
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>background</title>
+		
+	</head>
+	<body>
+		<div id="app"></div>
+		<% if (NODE_ENV === 'development') { %>
+		<script src='entry.js'></script>
+		<% }else{%>
+		<script src="https://example.com/js/entry.js"></script>
+		<!-- 替换成自己的域名 -->
+		<% }%>
+		
+	</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "id": "2125024",
+  "name": "轻词",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14995408",
+      "name": "货",
+      "font_class": "huo",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "23159001",
+      "name": "中国国旗",
+      "font_class": "zhongguoguoqi",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "23166554",
+      "name": "中国国旗",
+      "font_class": "languige",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "23281163",
+      "name": "中国国旗",
+      "font_class": "zhongguoguoqi1",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "16030954",
+      "name": "国旗-uk",
+      "font_class": "guoqi-uk",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "17741467",
+      "name": "keepa-simple",
+      "font_class": "keepa",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1503646",
+      "name": "折线图",
+      "font_class": "zhexiantu",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "11983536",
+      "name": "amazon",
+      "font_class": "amazon",
+      "unicode": "ea09",
+      "unicode_decimal": 59913
+    }
+  ]
+}
